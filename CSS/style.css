@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EAE2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    width: 600px;
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    line-height: 40px;
+    padding-right: 80px;
+}
+
+main img {
+    width: 50%;
+    bottom: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.card {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.titre-special {
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+    letter-spacing: 4px;
+}
+
+
+.description {
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+}
+
+.new-price {
+    color: #3D8168;
+    font-family: "Fraunces", serif;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.old-price {
+    color: #6C7289;
+    text-decoration: line-through;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bouton-add{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.bouton-add a {
+    background-color: #3D8168;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.cart {
+    max-height: 20px;
+    max-width: 20px;
+    margin-right: 12px;
+}
+
+.bouton-add a:hover {
+    background-color: #1A4032;
+    cursor: pointer;
+}
