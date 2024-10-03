@@ -94,6 +94,8 @@ main img {
 }
 
 .bouton-add a:hover {
-    background-color: #1A4032;
+    background-image: url(background-image: url("../../media/examples/lizard.png"););
     cursor: pointer;
+    transition: 0.7s;
+    transform: scale(1.1);
 }
